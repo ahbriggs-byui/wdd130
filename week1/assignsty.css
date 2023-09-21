@@ -1,0 +1,10 @@
+body{
+    background-color: deepskyblue;
+}
+p{
+    background-color: silver;
+}
+img {
+    border: 4px seashell;
+    width: 800px;
+}
