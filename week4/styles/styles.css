@@ -1,0 +1,35 @@
+/* nav, footer {
+    background-color: steelblue;
+    color: white;
+    padding: 10px;
+} */
+
+p{
+    background-color: red;
+}
+.mypara{
+    background-color: green;
+}
+/* #byui{
+    background-color: blue;
+} */
+
+p.mypara{
+    background-color: purple;
+}
+footer p {
+    font-size: 20px;
+    margin: 20px auto;
+}
+a:hover{
+    background-color: steelblue;
+    color: plum;
+}
+
+p:nth-child(odd){
+    border: 3px solid blue;
+}
+
+a:link {
+    color: green;
+}
