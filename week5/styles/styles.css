@@ -1,0 +1,18 @@
+body {
+    background-color: darkgray;
+}
+#main{
+    margin: 2px;
+}
+#desk{
+    border-radius: 100px;
+    border: rgb(59, 59, 59), 10px, solid;
+}
+#graphic{
+    border-radius: 100px;
+    border: rgb(59, 59, 59), 50px, solid;
+}
+#person{
+    border-radius: 100px;
+    border: rgb(59, 59, 59), 50px, solid;
+}
