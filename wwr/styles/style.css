@@ -146,6 +146,7 @@ nav a{
     text-align: center;
     text-decoration: none;
     padding: 35px;
+    flex: 1
 }
 nav a:hover{
     background-color: #669BBC;
@@ -233,8 +234,33 @@ footer .social img{
     padding-top: 15px;
 }
 
+/* Information Page */
+.informationStuff{
+    display: grid;
+}
 
+.infoHead{
+    background-color: #003049;
+    color: #FDF0D5;
+}
 
+h3{
+    text-align: left;
+    padding: 0px 30px;
+    background-color: #FDF0D5;
+    color: #003049;
+}
+.info1{
+    color: #003049;
+}
+.info2{
+    color: #003049;
+}
+.info3{
+    color: #003049;
+}
+
+/* smaller screen stuff */
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {

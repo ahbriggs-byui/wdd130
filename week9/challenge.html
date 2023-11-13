@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: black;
+    }
+    .card{
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    }
+    .card img{
+        width: 100%;
+    }
+    .stats{
+        background-color: rgb(66, 66, 255);
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        height: 100px;
+        grid-template-rows: 30px 30px;
+        align-content: center;
+    }
+    .stat{
+        color: white;
+        border-right: grey 1px solid;
+    }
+    .stat p{
+        margin-block-start: 0;
+        margin-block-end: 0;
+        text-align: center;
+    }
+    .stat p:first(){
+        font-size: 1.5rem;
+    }
+    .stat p:nth-child(2){
+        font-size: .8rem;
+    }
+</style>
+<body>
+    <section class="card">
+        <img src="images/w09_ice_img.jpg" alt="cityscape">
+        <p class="post-time">3 Weeks Ago</p>
+        <p class="post-heading">Post Three</p>
+        <p class="post-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum corporis pariatur exercitationem perspiciatis minus consectetur dolorum explicabo, vero earum inventore dolorem dignissimos commodi iure quas repellat est accusantium rem laborum sapiente odio. Voluptas, pariatur! Incidunt eligendi ducimus sunt eos deserunt? Quae accusamus sit enim laboriosam obcaecati reprehenderit aliquid ducimus repellendus tempore reiciendis, ratione, harum aspernatur voluptatem. Illo explicabo unde adipisci eius perferendis dolore praesentium atque deleniti eum dolorum repudiandae, sint vero. Porro inventore praesentium odit ipsa numquam accusamus, at ad sint molestias libero tempora necessitatibus? Eligendi explicabo inventore laborum distinctio ad hic? Doloremque ratione delectus consectetur nobis, enim sequi impedit!</p>
+        <div class="stats">
+            <div class="stat">
+                <p>5<sup>m</sup></p>
+                <p>READ</p>
+            </div>
+             <div class="stat">
+                <p>2031</p>
+                <p>VIEWS</p>
+            </div>
+                  
+            <div class="stat">
+                <p>15</p>
+                <p>COMMENTS</p>
+            </div>
+        </div> 
+    </section>
+</body>
+</html>
