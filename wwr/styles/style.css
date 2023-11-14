@@ -213,7 +213,7 @@ h4{
 footer{
     background-color: #003049;
     color: #FDF0D5;
-    font-size: 12px;
+    font-size: 15px;
     padding: 25px 50px;
     margin-top: 200px;
     display: flex;
@@ -303,6 +303,95 @@ h3{
 .grandCanyon:hover{
     transform: scale(1.1);
 }
+/* Contact Us Page */
+
+form {
+    /* Center the form on the page */
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 400px;
+    /* Form outline */
+    padding: 1em;
+    border: 1px solid #FDF0D5;
+    border-radius: 1em;
+    color: #003049;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  form li + li {
+    margin-top: 1em;
+  }
+  
+  label {
+    /* Uniform size & alignment */
+    display: block;
+    width: 90px;
+    
+  }
+  
+  input,
+  textarea {
+    /* To make sure that all text fields have the same font settings
+       By default, textareas have a monospace font */
+    font: 1em sans-serif;
+  
+    /* Uniform text field size */
+    width: 100%;
+    box-sizing: border-box;
+  
+    /* Match form field borders */
+    border: 1px solid #999;
+    padding: .5rem;
+    margin: .25rem;
+  }
+  
+  input:focus,
+  textarea:focus {
+    /* Additional highlight for focused elements */
+    border-color: #000;
+  }
+  
+  textarea {
+    /* Align multiline text fields with their labels */
+    vertical-align: top;
+  
+    /* Provide space to type some text */
+    height: 5em;
+  }
+  
+  .button {
+    /* Align buttons with the text fields */
+    padding-left: 90px; /* same size as the label elements */
+  }
+  
+  button {
+    /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+    background-color: #003049;
+    color:#FDF0D5;
+    width: 250px;
+    height: 50px;
+  }
+
+  #feedback {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;      
+}
+.moveDown {
+    margin-top: 3em;
+}
+     
 
 /* smaller screen stuff */
 
