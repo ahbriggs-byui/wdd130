@@ -13,6 +13,7 @@ nav{
     justify-content: space-around;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
+    padding: 15px;
 }
 nav a{
     background-color: #EDD83D;
@@ -77,7 +78,207 @@ footer a:hover{
     padding: 15px;
     font-family: 'Alegreya', 'serif';
 }
-/* timeline */
-
-
 /* game-info */
+.dueling-peaks{
+    border: #3F403F solid 3px;
+    grid-column: 2/3;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.switch-controller{
+    border: #3F403F solid 3px;
+    grid-column: 2/3;
+    grid-row: 7/8;
+    text-align: center;
+    margin: 15px;
+}
+
+.gameboy{
+    border: #3F403F solid 3px;
+    grid-column: 2/3;
+    grid-row: 4/5;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.game-main{
+    background-color: #F3F9E3;
+    display: grid;
+    grid-template-columns: 1fr 500px 1fr;
+}
+
+.LoZ-1{
+    background-color: #6AB547;
+    color: #3F403F;
+    grid-column: 1/2;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+}
+
+.AoL-2{
+    background-color: #EDD83D;
+    color: #3F403F;
+    grid-column: 3/5;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+}
+
+.ALttP-3{
+    background-color: #3F403F;
+    color: #F3F9E3;
+    grid-column: 1/2;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+    
+}
+
+.LA-4 {
+    background-color: #628B48;
+    color: #F3F9E3;
+    grid-column: 3/5;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+}
+
+.OOT-5{
+    background-color: #6AB547;
+    color: #3F403F;
+    grid-column: 1/2;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+}
+
+.MM-6{
+    background-color: #EDD83D;
+    color: #3F403F;
+    grid-column: 3/5;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+}
+
+.OOS-A-7{
+    background-color: #3F403F;
+    color: #F3F9E3;
+    grid-column: 1/2;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+}
+
+.FS-8{
+    background-color: #628B48;
+    color: #F3F9E3;
+    grid-column: 3/5;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+}
+
+.WW-9{
+    background-color: #6AB547;
+    color: #3F403F;
+    grid-column: 1/2;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+}
+
+.FSA-10{
+    background-color: #EDD83D;
+    color: #3F403F;
+    grid-column: 3/5;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+}
+
+.MC-11{
+    background-color: #3F403F;
+    color: #F3F9E3;
+    grid-column: 1/2;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+}
+
+.TP-12{
+    background-color: #628B48;
+    color: #F3F9E3;
+    grid-column: 3/5;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+}
+
+.PH-13{
+    background-color: #6AB547;
+    color: #3F403F;
+    grid-column: 1/2;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+}
+
+.ST-14{
+    background-color: #EDD83D;
+    color: #3F403F;
+    grid-column: 3/5;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+}
+
+.SS-15{
+    background-color: #3F403F;
+    color: #F3F9E3;
+    grid-column: 1/2;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+}
+
+.ALBW-16{
+    background-color: #628B48;
+    color: #F3F9E3;
+    grid-column: 3/5;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+}
+
+.TFH-17{
+    background-color: #6AB547;
+    color: #3F403F;
+    grid-column: 1/2;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+}
+
+.BotW-18{
+    background-color: #EDD83D;
+    color: #3F403F;
+    grid-column: 3/5;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+}
+
+.TotK-19{
+    background-color: #3F403F;
+    color: #F3F9E3;
+    grid-column: 2/3;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+}
+
+
+/* timeline */
