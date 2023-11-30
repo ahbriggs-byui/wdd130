@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Raleway&display=swap');
+
+/* standard page stuff */
+header{
+    background-color: #F3F9E3;
+}
+main{
+    background-color: #F3F9E3;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+}
+nav a{
+    background-color: #EDD83D;
+    color: #3F403F;
+    padding: 25px;
+    flex: 1;
+    text-align: center;
+    text-decoration: none;
+}
+nav a:hover{
+    background-color: #628B48;
+    color: #F3F9E3;
+    padding: 25px;
+}
+footer{
+    background-color: #628B48;
+    color: #3F403F;
+    padding: 10px 10px;
+}
+footer a:hover{
+    background-color: #EDD83D;
+    color: #3F403F;
+    padding: 5px;
+}
+
+/* homepage */
+.home-main{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 75px;
+    background-color: #6AB547;
+    color: #F3F9E3;
+    padding: 25px;   
+}
+.swordmain{
+    border: #3F403F solid 5px;
+    text-align: center;
+    margin: 0 auto;
+    grid-row: 1/4;
+}
+.mapmain{
+    border: #3F403F solid 5px;
+    text-align: center;
+    margin: 0 auto;
+    grid-row: 1/4;
+}
+.hp1{
+    color: #F3F9E3;
+    grid-row: 2/3;
+    font-size: 24px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Alegreya', 'serif';
+}
+.hp2{
+    color: #F3F9E3;
+    text-align: center;
+    margin: 0 auto;
+    grid-row: 4/5;
+    grid-column: 2/3;
+    font-size: 18px;
+    padding: 15px;
+    font-family: 'Alegreya', 'serif';
+}
+/* timeline */
+
+
+/* game-info */
