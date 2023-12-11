@@ -32,6 +32,7 @@ footer{
     background-color: #628B48;
     color: #3F403F;
     padding: 10px 10px;
+    font-family: 'Raleway', sans-serif;
 }
 footer a:hover{
     background-color: #EDD83D;
@@ -84,7 +85,9 @@ footer a:hover{
 .dueling-peaks{
     border: #3F403F solid 3px;
     grid-column: 2/3;
+    grid-row: 1/2;
     text-align: center;
+    align-self: center;
     margin: 0 auto;
 }
 
@@ -93,6 +96,7 @@ footer a:hover{
     grid-column: 2/3;
     grid-row: 7/8;
     text-align: center;
+    align-self: center;
     margin: 0 auto;
 }
 
@@ -101,6 +105,7 @@ footer a:hover{
     grid-column: 2/3;
     grid-row: 4/5;
     text-align: center;
+    align-self: center;
     margin: 0 auto;
 }
 
@@ -108,26 +113,27 @@ footer a:hover{
     background-color: #F3F9E3;
     display: grid;
     grid-template-columns: 1fr 500px 1fr;
+    font-family: 'Alegreya', 'serif';
 }
 
 .LoZ-1{
     background-color: #6AB547;
     color: #3F403F;
     grid-column: 1/2;
+    grid-row: 1/2;
     margin: 15px;
     padding: 15px;
     text-align: center;
-    font-family: 'Alegreya', 'serif';
 }
 
 .AoL-2{
     background-color: #EDD83D;
     color: #3F403F;
     grid-column: 3/5;
+    grid-row: 1/2;
     margin: 15px;
     padding: 15px;
     text-align: center;
-    font-family: 'Alegreya', 'serif';
 }
 
 .ALttP-3{
@@ -137,7 +143,6 @@ footer a:hover{
     margin: 15px;
     padding: 15px;
     text-align: center;
-    font-family: 'Alegreya', 'serif';
 }
 
 .LA-4 {
@@ -147,7 +152,6 @@ footer a:hover{
     margin: 15px;
     padding: 15px;
     text-align: center;
-    font-family: 'Alegreya', 'serif';
 }
 
 .OOT-5{
@@ -157,7 +161,6 @@ footer a:hover{
     margin: 15px;
     padding: 15px;
     text-align: center;
-    font-family: 'Alegreya', 'serif';
 }
 
 .MM-6{
@@ -167,7 +170,6 @@ footer a:hover{
     margin: 15px;
     padding: 15px;
     text-align: center;
-    font-family: 'Alegreya', 'serif';
 }
 
 .OOS-A-7{
@@ -177,7 +179,6 @@ footer a:hover{
     margin: 15px;
     padding: 15px;
     text-align: center;
-    font-family: 'Alegreya', 'serif';
 }
 
 .FS-8{
@@ -187,7 +188,6 @@ footer a:hover{
     margin: 15px;
     padding: 15px;
     text-align: center;
-    font-family: 'Alegreya', 'serif';
 }
 
 .WW-9{
@@ -197,7 +197,6 @@ footer a:hover{
     margin: 15px;
     padding: 15px;
     text-align: center;
-    font-family: 'Alegreya', 'serif';
 }
 
 .FSA-10{
@@ -207,7 +206,6 @@ footer a:hover{
     margin: 15px;
     padding: 15px;
     text-align: center;
-    font-family: 'Alegreya', 'serif';
 }
 
 .MC-11{
@@ -217,7 +215,6 @@ footer a:hover{
     margin: 15px;
     padding: 15px;
     text-align: center;
-    font-family: 'Alegreya', 'serif';
 }
 
 .TP-12{
@@ -227,7 +224,6 @@ footer a:hover{
     margin: 15px;
     padding: 15px;
     text-align: center;
-    font-family: 'Alegreya', 'serif';
 }
 
 .PH-13{
@@ -237,7 +233,6 @@ footer a:hover{
     margin: 15px;
     padding: 15px;
     text-align: center;
-    font-family: 'Alegreya', 'serif';
 }
 
 .ST-14{
@@ -247,7 +242,6 @@ footer a:hover{
     margin: 15px;
     padding: 15px;
     text-align: center;
-    font-family: 'Alegreya', 'serif';
 }
 
 .SS-15{
@@ -257,7 +251,6 @@ footer a:hover{
     margin: 15px;
     padding: 15px;
     text-align: center;
-    font-family: 'Alegreya', 'serif';
 }
 
 .ALBW-16{
@@ -267,7 +260,6 @@ footer a:hover{
     margin: 15px;
     padding: 15px;
     text-align: center;
-    font-family: 'Alegreya', 'serif';
 }
 
 .TFH-17{
@@ -277,7 +269,6 @@ footer a:hover{
     margin: 15px;
     padding: 15px;
     text-align: center;
-    font-family: 'Alegreya', 'serif';
 }
 
 .BotW-18{
@@ -287,7 +278,6 @@ footer a:hover{
     margin: 15px;
     padding: 15px;
     text-align: center;
-    font-family: 'Alegreya', 'serif';
 }
 
 .TotK-19{
@@ -297,7 +287,6 @@ footer a:hover{
     margin: 15px;
     padding: 15px;
     text-align: center;
-    font-family: 'Alegreya', 'serif';
 }
 
 
@@ -306,29 +295,28 @@ footer a:hover{
     background-color: #F3F9E3;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    font-family: 'Alegreya', 'serif';
 }
 
 .z1{
-    background-color: #6AB547;
+    background-color: #EDD83D;
     color: #3F403F;
     grid-column: 1/2;
     grid-row: 11/12;
     margin: 15px;
     padding: 15px;
     text-align: center;
-    font-family: 'Alegreya', 'serif'
     /* #20 */
 }
 
 .z2{
-    background-color: #3F403F;
-    color: #F3F9E3;
+    background-color: #EDD83D;
+    color: #3F403F;
     grid-column: 1/2;
     grid-row: 12/13;
     margin: 15px;
     padding: 15px;
     text-align: center;
-    font-family: 'Alegreya', 'serif'
     /* #21 */
 }
 
@@ -340,19 +328,17 @@ footer a:hover{
     margin: 15px;
     padding: 15px;
     text-align: center;
-    font-family: 'Alegreya', 'serif'
     /* #15 */
 }
 
 .z4{
-    background-color: #6AB547;
+    background-color: #EDD83D;
     color: #3F403F;
     grid-column: 1/2;
     grid-row: 7/8;
     margin: 15px;
     padding: 15px;
     text-align: center;
-    font-family: 'Alegreya', 'serif'
     /* #16 */
 }
 
@@ -364,43 +350,39 @@ footer a:hover{
     margin: 15px;
     padding: 15px;
     text-align: center;
-    font-family: 'Alegreya', 'serif'
     /* #4 */
 }
 
 .z6{
-    background-color: #EDD83D;
-    color: #3F403F;
+    background-color:  #628B48;
+    color: #F3F9E3;
     grid-column: 2/3;
     grid-row: 7/8;
     margin: 15px;
     padding: 15px;
     text-align: center;
-    font-family: 'Alegreya', 'serif'
     /* #12 */
 }
 
 .z7{
-    background-color: #3F403F;
-    color: #F3F9E3;
+    background-color: #EDD83D;
+    color: #3F403F;
     grid-column: 1/2;
     grid-row: 8/9;
     margin: 15px;
     padding: 15px;
     text-align: center;
-    font-family: 'Alegreya', 'serif'
     /* #17 */
 }
 
 .z8{
-    background-color: #3F403F;
-    color: #F3F9E3;
+    background-color: #6AB547;
+    color: #3F403F;
     grid-column: 2/3;
     grid-row: 3/4;
     margin: 15px;
     padding: 15px;
     text-align: center;
-    font-family: 'Alegreya', 'serif'
     /* #3 */
 }
 
@@ -412,91 +394,83 @@ footer a:hover{
     margin: 15px;
     padding: 15px;
     text-align: center;
-    font-family: 'Alegreya', 'serif'
     /* #9 */
 }
 
 .z10{
-    background-color: #3F403F;
+    background-color:  #628B48;
     color: #F3F9E3;
     grid-column: 2/3;
     grid-row: 9/10;
     margin: 15px;
     padding: 15px;
     text-align: center;
-    font-family: 'Alegreya', 'serif'
     /* #14 */
 }
 
 .z11{
-    background-color: #EDD83D;
+    background-color: #6AB547; 
     color: #3F403F;
     grid-column: 2/3;
     grid-row: 2/3;
     margin: 15px;
     padding: 15px;
     text-align: center;
-    font-family: 'Alegreya', 'serif'
     /* #2 */
 }
 
 .z12{
-    background-color:  #628B48;
+    background-color:   #628B48;
     color: #F3F9E3;
     grid-column: 2/3;
     grid-row: 8/9;
     margin: 15px;
     padding: 15px;
     text-align: center;
-    font-family: 'Alegreya', 'serif'
     /* #13 */
 }
 
 .z13{
-    background-color: #6AB547;
-    color: #3F403F;
+    background-color: #3F403F;
+    color: #F3F9E3;
     grid-column: 3/4;
     grid-row: 8/9;
     margin: 15px;
     padding: 15px;
     text-align: center;
-    font-family: 'Alegreya', 'serif'
     /* #10 */
 }
 
 .z14{
-    background-color: #EDD83D;
-    color: #3F403F;
+    background-color: #3F403F;
+    color: #F3F9E3;
     grid-column: 3/4;
     grid-row: 9/10;
     margin: 15px;
     padding: 15px;
     text-align: center;
-    font-family: 'Alegreya', 'serif'
     /* #11 */
 }
 
 .z15{
-    background-color: #628B48;
-    color: #F3F9E3;
+    background-color: #6AB547;
+    color: #3F403F;
     grid-column: 2/3;
     grid-row: 1/2;
     margin: 15px;
     padding: 15px;
     text-align: center;
-    font-family: 'Alegreya', 'serif'
     /* #1 */
 }
 
 .z16{
-    background-color: #628B48;
-    color: #F3F9E3;
+    background-color: #EDD83D;
+    color: #3F403F;
     grid-column: 1/2;
     grid-row: 9/10;
     margin: 15px;
     padding: 15px;
     text-align: center;
-    font-family: 'Alegreya', 'serif'
     /* #18 */
 }
 
@@ -508,19 +482,17 @@ footer a:hover{
     margin: 15px;
     padding: 15px;
     text-align: center;
-    font-family: 'Alegreya', 'serif'
     /* #19 */
 }
 
 .z18{
-    background-color: #EDD83D;
+    background-color: #6AB547;
     color: #3F403F;
     grid-column: 1/4;
     grid-row: 13/14;
     margin: 15px;
     padding: 15px;
     text-align: center;
-    font-family: 'Alegreya', 'serif'
     /* #22 */
 }
 
@@ -529,10 +501,9 @@ footer a:hover{
     color: #3F403F;
     grid-column: 1/4;
     grid-row: 14/15;
-    margin: 15px;
+    margin: 15px 15px 50px;
     padding: 15px;
     text-align: center;
-    font-family: 'Alegreya', 'serif'
     /* #23 */
 }
 
@@ -544,7 +515,6 @@ footer a:hover{
     margin: 15px;
     padding: 15px;
     text-align: center;
-    font-family: 'Alegreya', 'serif'
     /* #6 */
 }
 
@@ -556,31 +526,28 @@ footer a:hover{
     margin: 15px;
     padding: 15px;
     text-align: center;
-    font-family: 'Alegreya', 'serif'
     /* #5 */
 }
 
 .adult{
-    background-color: #628B48;
+    background-color: #3F403F;
     color: #F3F9E3;
     grid-column: 3/4;
     grid-row: 6/7;
     margin: 15px;
     padding: 15px;
     text-align: center;
-    font-family: 'Alegreya', 'serif'
     /* #8 */
 }
 
 .child{
-    background-color: #6AB547;
-    color: #3F403F;
+    background-color:  #628B48;
+    color: #F3F9E3;
     grid-column: 2/3;
     grid-row: 6/7;
     margin: 15px;
     padding: 15px;
     text-align: center;
-    font-family: 'Alegreya', 'serif'
     /* #7 */
 }
 .gs{
