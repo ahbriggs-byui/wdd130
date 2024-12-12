@@ -283,7 +283,15 @@ footer a:hover{
 .TotK-19{
     background-color: #3F403F;
     color: #F3F9E3;
-    grid-column: 2/3;
+    grid-column: 1/2;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+}
+.EoW-20{
+    background-color: #628B48;
+    color: #F3F9E3;
+    grid-column: 3/5;
     margin: 15px;
     padding: 15px;
     text-align: center;
@@ -505,6 +513,17 @@ footer a:hover{
     padding: 15px;
     text-align: center;
     /* #23 */
+}
+
+.z20{
+    background-color: #EDD83D;
+    color: #3F403F;
+    grid-column: 1/2;
+    grid-row: 11/12;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+
 }
 
 .success{
